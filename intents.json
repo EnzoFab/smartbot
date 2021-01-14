@@ -1,0 +1,23 @@
+{
+  "intents":[
+    {
+    "tag" : "greetings",
+    "patterns": ["Hello", "Hi", "Hey", "Good day",
+      "How are you doing", "Greetings", "What's up?", "How is it going ?"],
+    "responses": ["Hello!", "Hey dude", "How can I help ?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "I'm out"],
+      "responses": ["See ya","See you around", "Bye", "Goodbye sir", "Oh okay.."]
+    },
+    {
+      "tag":"politeness",
+      "patterns": ["How are you ?", "How is life going", "Hope you are great", "How is life", "Is everything alright dude ?"],
+      "responses": ["I'm pretty good sir", "Marvelously well", "I'm good",
+        "I'm fine", "It couldn't be better", "Each day at time sir", "I make go", "I'm ok",
+      "You know, life is life", "Not that bad", "Greet thanks"]
+    }
+  ]
+
+}
